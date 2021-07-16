@@ -1,1 +1,29 @@
-
+.text{
+    font-family: sans-serif;
+    font-size: 24px;
+    margin-left: 25%;
+    margin-top: 15%;
+    color: white;
+}
+.text h1{
+    font-family: sans-serif;
+}
+.button{
+    text-decoration:none; 
+    text-align:center; 
+    padding:11px 58px; 
+    border: 1px solid white; 
+    -webkit-border-radius:4px;
+    -moz-border-radius:4px; 
+    border-radius: 4px; 
+    font:25px sans-serif; 
+    font-weight:bold; 
+    color:#E5FFFF; 
+    background: #2193b0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);
+    background: linear-gradient(to right, #6dd5ed, #2193b0); 
+    opacity: 100%;
+}
+.button:hover{
+    border: 5px solid white;
+}
